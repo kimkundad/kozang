@@ -474,30 +474,14 @@ figcaption {
 
                               <div class="col-md-9">
 
-                                @if(trans('message.lang') == 'ไทย')
-
-                                <p style="font-size:16px;" align="justify">
+                              <p style="font-size:16px;" align="justify">
                                   {!! $objs->details !!}
                                 </p>
-
-                                @elseif(trans('message.lang') == 'Eng')
-
-                                <p style="font-size:16px;" align="justify">
-                                  {!! $objs->details_en !!}
-                                </p>
-
-                                @else
-
-                                <p style="font-size:16px;" align="justify">
-                                  {!! $objs->details_cn !!}
-                                </p>
-
-                                @endif
 
 
 
                                   <h4>{{trans('message.con_shop')}}</h4>
-                                  <p><b>ที่อยู่ร้าน :</b> {{$objs->keyword}} </p>
+                                  <p><b>ที่อยู่ร้าน :</b> {{$objs->address}} </p>
                                   <div class="row">
                                       <div class="col-md-6 col-sm-6">
                                           <ul class="list_ok">
