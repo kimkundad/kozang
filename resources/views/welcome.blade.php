@@ -457,25 +457,20 @@ kozang - ค้นหาร้านวัสดุก่อสร้าง
             </div>
 
             <div class="row">
-              <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
               
-              </div>
+                <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
+                  <img style="max-height: 180px; border: 2px solid #f3eded;" alt="dealcha.com" src="img/19800657_1408096402600485_2552203515332779258_o.jpg">
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
+                  <img style="max-height: 180px; border: 2px solid #f3eded;" alt="dealcha.com" src="img/messageImage_1586938736946.jpg">
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
+                  <img style="max-height: 180px; border: 2px solid #f3eded;" alt="dealcha.com" src="img/messageImage_1586939366771.jpg">
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
+                  <img style="max-height: 180px; border: 2px solid #f3eded;" alt="dealcha.com" src="img/vgo.png">
+                </div>
               
-              <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
-                <img style="max-height: 180px; border: 2px solid #f3eded;" alt="dealcha.com" src="img/19800657_1408096402600485_2552203515332779258_o.jpg">
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
-                <img style="max-height: 180px; border: 2px solid #f3eded;" alt="dealcha.com" src="img/messageImage_1586938736946.jpg">
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
-                <img style="max-height: 180px; border: 2px solid #f3eded;" alt="dealcha.com" src="img/messageImage_1586939366771.jpg">
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
-                <img style="max-height: 180px; border: 2px solid #f3eded;" alt="dealcha.com" src="img/vgo.png">
-              </div>
-              <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
-
-              </div>
               </div>
                 <!-- /row -->
         </div>
