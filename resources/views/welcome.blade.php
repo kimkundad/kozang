@@ -144,7 +144,7 @@ kozang - ค้นหาร้านวัสดุก่อสร้าง
                             </div>
                             <div class="col-lg-6">
                               <div class="form-group">
-                                    <input class="form-control pac-target-input" type="text" name="shop_name" placeholder="ชื่อร้านวัสดุก่อสร้าง..."  >
+                                    <input class="form-control pac-target-input" type="text" name="shop_name" placeholder="ค้นหาสินค้าและบริการ..."  >
                                   
                                 </div>
                             </div>
@@ -230,6 +230,15 @@ kozang - ค้นหาร้านวัสดุก่อสร้าง
     <a href="{{url('all_shop')}}" class="btn_1 medium"> ดูร้านวัสดุก่อสร้าง ({{$shop_count}}) รายการ </a>
   </p>
 
+
+  <br><hr>
+  <br>
+  <div class="main_title">
+    <h2> <span style="font-size: 28px;"> สินค้าใหม่ <!--{{ trans('message.sub_title_home_pro') }} --></span> ไม่เหมือนใคร</h2>
+
+    <br>
+    <p style="font-size:20px;">สินค้าใหม่เปลี่ยนทุกวันจันทร์ สั่งซื้อได้ก่อนใคร สะดวกรวดเร็ว <!-- {{ trans('message.sub_title_home_2_pro') }}--></p>
+  </div>
  
 
   <style>
@@ -334,7 +343,74 @@ kozang - ค้นหาร้านวัสดุก่อสร้าง
   </style>
 
 
+<div class="row">
 
+
+  
+
+
+<!-- สคริปก่อนหน้านี้ ลบ ไปแล้ว -->
+
+@if(isset($product))
+@foreach($product as $u)
+<div class="col-md-3 col-xs-6 set_new_mar">
+    <div class="thumbnail a_sd_move">
+          <div style=" overflow: hidden; position: relative; min-height: 153px; max-height: 173px;">
+              <a href="{{url('product/'.$u->id)}}">
+                  <img src="{{url('assets/image/product/'.$u->image_pro)}}">
+              </a>
+            </div>
+            <div class="caption" style="padding: 3px;">
+                        <div class="descript bold" style="border-bottom: 1px dashed #dff0d8; height: 38px;overflow: hidden; ">
+                            <a href="{{url('product/'.$u->id)}}">{{$u->name_pro}}</a>
+                        </div>
+
+                        <div class="descript" style="height: 20px;">
+                          <span class="f_s_title_kim" style="color: #e03753; font-weight: 600;">฿ {{number_format($u->price)}} </span>
+                          <div class="descript-t">
+                          <div class="postMetaInline-authorLockup">
+                         
+
+                            <div class="rating">
+
+        <?php
+        for($i=1;$i <= $u->rating;$i++){
+        ?>
+
+                        <i class="icon-star voted"></i>
+        <?php
+        }
+        ?>
+
+        <?php
+        $total = 5;
+        $total -= $u->rating;
+
+        for($i=1;$i <= $total;$i++){
+        ?>
+
+                       <i class="icon-star-empty"></i>
+        <?php
+        }
+        ?>
+          </div>
+
+                          </div>
+                          </div>
+                        </div>
+
+                      </div>
+    </div>
+</div>
+@endforeach
+@endif
+
+
+
+
+
+
+</div>
 
 
 </div>
@@ -356,7 +432,7 @@ kozang - ค้นหาร้านวัสดุก่อสร้าง
     color: #6dcff6;
 }
 .banner_2 {
-    background: url({{ url('img/Hardware3.jpg') }}) center center no-repeat;
+    background: url({{ url('img/banner_FB.jpg') }}) center center no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -430,14 +506,11 @@ kozang - ค้นหาร้านวัสดุก่อสร้าง
                 </div>
                 <br><br>
                 <div class="banner_2">
-                    <div class="wrapper d-flex align-items-center opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.3)" style="background-color: rgba(0, 0, 0, 0.3);">
-                        <div>
-                            <h3>ข้อมูลร้านวัสดุก่อสร้าง<br> </h3>
-                            <p>ที่มีผู้ชม แนะนำโดย kozang.com</p>
-                            <a href="all_tours_list.html" class="btn_1">ดูเพิ่มเติม</a>
-                        </div>
-                    </div>
+                    
                     <!-- /wrapper -->
+                    <a href="#">
+                    <img src="{{ url('img/banner_FB.jpg') }}" class="img-responsive">
+                    </a>
                 </div>
                 <!-- /banner_2 -->
 
@@ -448,7 +521,12 @@ kozang - ค้นหาร้านวัสดุก่อสร้าง
 
 
 
+<style>
 
+  .foot_logo{
+    margin-top:15px;
+  }
+</style>
 
 
     <div class="container margin_60">
@@ -459,16 +537,31 @@ kozang - ค้นหาร้านวัสดุก่อสร้าง
             <div class="row">
               
                 <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
-                  <img style="max-height: 180px; border: 2px solid #f3eded;" alt="dealcha.com" src="img/19800657_1408096402600485_2552203515332779258_o.jpg">
+                  <img style="max-height: 180px; border: 2px solid #f3eded;" class="foot_logo"  src="{{ url('/img/logo/625746e6f8b1cf1c994a34ee512af67c.jpg') }}">
                 </div>
                 <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
-                  <img style="max-height: 180px; border: 2px solid #f3eded;" alt="dealcha.com" src="img/messageImage_1586938736946.jpg">
+                  <img style="max-height: 180px; border: 2px solid #f3eded;" class="foot_logo" src="{{ url('/img/logo/inwshop.png') }}">
                 </div>
                 <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
-                  <img style="max-height: 180px; border: 2px solid #f3eded;" alt="dealcha.com" src="img/messageImage_1586939366771.jpg">
+                  <img style="max-height: 180px; border: 2px solid #f3eded;" class="foot_logo" src="{{ url('/img/logo/images.png') }}">
                 </div>
                 <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
-                  <img style="max-height: 180px; border: 2px solid #f3eded;" alt="dealcha.com" src="img/vgo.png">
+                  <img style="max-height: 180px; border: 2px solid #f3eded;" class="foot_logo"  src="{{ url('/img/logo/tpxmovi1vjostwraaflb-1.png') }}">
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
+                  <img style="max-height: 180px; border: 2px solid #f3eded;" class="foot_logo" src="{{ url('/img/logo/dohome600pix.png') }}">
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
+                  <img style="max-height: 180px; border: 2px solid #f3eded;" class="foot_logo" src="{{ url('/img/logo/lazada-logo.jpg') }}">
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
+                  <img style="max-height: 180px; border: 2px solid #f3eded;" class="foot_logo" src="{{ url('/img/logo/download.png') }}">
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
+                  <img style="max-height: 180px; border: 2px solid #f3eded;" class="foot_logo" src="{{ url('/img/logo/laScVLFL_400x400.webp') }}">
+                </div>
+                <div class="col-md-2 col-sm-3 col-xs-6 logo-style">
+                  <img style="max-height: 180px; border: 2px solid #f3eded;" class="foot_logo" src="{{ url('/img/logo/8a7908906299f6dce16e2a645b1a25a2.jpg') }}">
                 </div>
               
               </div>

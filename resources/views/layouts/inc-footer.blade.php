@@ -1,12 +1,36 @@
 <footer class="revealed" >
         <div class="container">
 
+        <style>
+
+a#phone, a#line_id {
+    display: block;
+    position: relative;
+    color: #fdf7ac;
+    font-size: 16px;
+    padding-left: 40px;
+    margin: 20px 0;
+}
+a#line_id:before {
+    font-size: 28px;
+    content:"\75";
+    left: 0;
+    top: 5px;
+}
+a#line_id:before {
+    font-style: normal;
+    font-weight: 400;
+    font-family: "icon_set_1";
+    position: absolute;
+}
+        </style>
           <div class="row">
               <div class="col-md-4 col-sm-3">
               <a href="{{url('/')}}"><img src="{{url('img/logo.png')}}" height="54" alt="kozang" data-retina="true" class="logo_normal"></a>
                   <h3>Need help?</h3>
                   <a href="tel://086 551 7336" id="phone">086 551 7336</a>
-                  <a href="#" id="email_footer">teeneejj@gmail.com</a>
+                  <a href="#" id="email_footer">Contact@wiseboq.com</a>
+                  <a href="#" id="line_id">LINE ID : Wiseboq</a>
               </div>
               <div class="col-md-2 col-sm-3">
                   <h3>About</h3>
@@ -49,9 +73,9 @@
               </div>
               <div class="col-md-4 col-sm-3">
                   <h3>Fanpage</h3>
-                 <div class="fb-page" data-href="https://www.facebook.com/teeneejj/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
-                   <blockquote cite="https://www.facebook.com/teeneejj/" class="fb-xfbml-parse-ignore">
-                     <a href="https://www.facebook.com/teeneejj/">Teeneejj Thailand Digital Market-ที่นี่ตลาดนัดจตุจักรออนไลน์</a>
+                 <div class="fb-page" data-href="https://www.facebook.com/wiseboq" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
+                   <blockquote cite="https://www.facebook.com/wiseboq" class="fb-xfbml-parse-ignore">
+                     <a href="https://www.facebook.com/wiseboq">Wiseboq ให้บริการสืบราคา-สั่งซื้อ วัสดุก่อสร้าง ออนไลน์</a>
                    </blockquote></div>
               </div>
           </div><!-- End row -->
@@ -61,7 +85,7 @@
                 <div class="col-md-12">
                   <div id="social_footer">
                       <ul>
-                          <li><a href="https://www.facebook.com/teeneejj"><i class="icon-facebook"></i></a></li>
+                          <li><a href="https://www.facebook.com/wiseboq"><i class="icon-facebook"></i></a></li>
                           <li><a href=""><i class="icon-twitter"></i></a></li>
                           <li><a href=""><i class="icon-google"></i></a></li>
                           <li><a href="https://instagram.com/teeneejj/"><i class="icon-instagram"></i></a></li>

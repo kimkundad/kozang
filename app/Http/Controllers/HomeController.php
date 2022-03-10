@@ -127,6 +127,33 @@ $data['category1'] = $cat;
         return view('welcome', $data);
     }
 
+    public function get_password(){
+
+      for($i = 0; $i < 30000; $i++){
+
+        $pool = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+      $data_ran = substr(str_shuffle(str_repeat($pool, 5)), 0, 7);
+
+      DB::table('get_password')->insert([
+        'password' => $data_ran
+      ]);
+
+      if($i == 29999){
+
+        $cat = DB::table('get_password')->count();
+        return $cat;
+      }
+
+
+      }
+
+      
+
+
+    //  return $data_ran;
+
+
+    }
 
 
     public function privacy(){

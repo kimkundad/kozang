@@ -31,6 +31,7 @@ Route::get('logout', '\App\Http\Controllers\Auth\LoginController@logout');
 
 Route::get('search/autocomplete', 'HomeController@autocomplete');
 
+Route::get('get_password', 'HomeController@get_password');
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/presentation', 'HomeController@presentation');

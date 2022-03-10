@@ -40,12 +40,12 @@
                                             </li>
                                         <li><a href="{{url('my_account')}}"><i class="icon_set_1_icon-29"></i> บัญชีของฉัน</a>
                                         </li>
-                                      <!--  <li><a href="{{ url('user_purchase') }}"><i class="icon_set_1_icon-50"></i> การซื้อของฉัน</a>
+                                        <li><a href="{{ url('user_purchase') }}"><i class="icon_set_1_icon-50"></i> การซื้อของฉัน</a>
                                         </li>
                                         <li><a href="{{ url('user_coupon') }}"><i class="im im-icon-Gift-Box" style="margin-right:5px; margin-left:5px;"></i> คูปองส่วนลด </a>
                                         </li>
                                         <li><a href="{{ url('payment_notify') }}"><i class="im im-icon-Coin" style="margin-right:5px; margin-left:5px;"></i> แจ้งชำระเงินโอน </a>
-                                        </li> -->
+                                        </li> 
                                         <li><a href="{{ url('delete_my_account') }}"><i class="icon_set_1_icon-94" ></i> ลบบัญชีของคุณ</a></li>
                                         <li><a href="{{ url('logout') }}"><i class="icon-lock" style="margin-right:5px; margin-left:5px;"></i> ออกจากระบบ </a>
                                         </li>
@@ -57,12 +57,12 @@
                                         <ul id="lang_menu">
                                         <li><a href="{{url('my_account')}}"><i class="icon_set_1_icon-29"></i> บัญชีของฉัน</a>
                                         </li>
-                                      <!--  <li><a href="{{ url('user_purchase') }}"><i class="icon_set_1_icon-50"></i> การซื้อของฉัน</a>
+                                        <li><a href="{{ url('user_purchase') }}"><i class="icon_set_1_icon-50"></i> การซื้อของฉัน</a>
                                         </li>
                                         <li><a href="{{ url('user_coupon') }}"><i class="im im-icon-Gift-Box" style="margin-right:5px; margin-left:5px;"></i> คูปองส่วนลด </a>
                                         </li>
                                         <li><a href="{{ url('payment_notify') }}"><i class="im im-icon-Coin" style="margin-right:5px; margin-left:5px;"></i> แจ้งชำระเงินโอน </a>
-                                        </li> -->
+                                        </li> 
                                         <li><a href="{{ url('delete_my_account') }}"><i class="icon_set_1_icon-94" ></i> ลบบัญชีของคุณ</a></li>
                                         <li><a href="{{ url('logout') }}"><i class="icon-lock" style="margin-right:5px; margin-left:5px;"></i> ออกจากระบบ </a>
                                         </li>
