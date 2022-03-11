@@ -24,7 +24,7 @@ TEENEEJJ - ตลาดนัดสวนจตุจักร
 }
 </style>
 
-<section class="parallax-window" data-parallax="scroll" data-image-src="{{url('assets/img/home_bg_3.jpg')}}" data-natural-width="1400" data-natural-height="370">
+<section class="parallax-window" data-parallax="scroll" data-image-src="{{url('img/geometic-bg-green.png')}}" data-natural-width="1400" data-natural-height="370">
             <div class="parallax-content-1">
               <div class="animated fadeInDown">
                 <h1>{{ trans('message.total_shop') }}</h1>
