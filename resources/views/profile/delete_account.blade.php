@@ -11,7 +11,7 @@ TEENEEJJ - ตลาดนัดสวนจตุจักร
 @section('content')
 
 
-<section class="parallax-window" style="min-height: 270px;" data-parallax="scroll" data-image-src="{{url('assets/img/home_bg_3.jpg')}}" data-natural-width="1400" data-natural-height="370">
+<section class="parallax-window" style="min-height: 270px;" data-parallax="scroll" data-image-src="{{url('img/geometic-bg-green.png')}}" data-natural-width="1400" data-natural-height="370">
             
         </section>
 
@@ -42,12 +42,12 @@ TEENEEJJ - ตลาดนัดสวนจตุจักร
                     <ul id="cat_nav">
                                         <li><a href="{{url('my_account')}}"><i class="icon_set_1_icon-29"></i> บัญชีของฉัน</a>
                                         </li>
-                                  <!--      <li><a href="{{ url('user_purchase') }}"><i class="icon_set_1_icon-50"></i> การซื้อของฉัน</a>
+                                        <li><a href="{{ url('user_purchase') }}"><i class="icon_set_1_icon-50"></i> การซื้อของฉัน</a>
                                         </li>
                                         <li><a href="{{ url('user_coupon') }}"><i class="im im-icon-Gift-Box" style="margin-right:10px; "></i> คูปองส่วนลด </a>
                                         </li>
                                         <li><a href="{{ url('payment_notify') }}"><i class="im im-icon-Coin" style="margin-right:10px; "></i> แจ้งชำระเงินโอน </a>
-                                        </li> -->
+                                        </li> 
                                         <li><a href="{{ url('delete_my_account') }}"><i class="icon_set_1_icon-94" ></i> ลบบัญชีของคุณ</a></li>
                                         <li><a href="{{ url('logout') }}"><i class="icon-lock" ></i> ออกจากระบบ </a>
                                         </li>

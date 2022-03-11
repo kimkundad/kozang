@@ -398,11 +398,11 @@ TEENEEJJ - ตลาดนัดสวนจตุจักร
 										<option value="" selected="">--เลือกจังหวัดที่ท่านอยู่--</option>
 
                                         @foreach($provinces as $province)
-										<option value="{{$province->name_in_thai}}" 
+										<option value="{{$province->name}}" 
                                             @if( $add->province == $province->id)
                                             selected='selected'
                                             @endif 
-                                            >{{$province->name_in_thai}}</option>
+                                            >{{$province->name}}</option>
 										@endforeach
 									</select>
                                     @if ($errors->has('country_order'))
@@ -453,7 +453,7 @@ TEENEEJJ - ตลาดนัดสวนจตุจักร
 										<option value="" selected="">--เลือกจังหวัดที่ท่านอยู่--</option>
 
                                         @foreach($provinces as $province)
-										<option value="{{$province->name_in_thai}}">{{$province->name_in_thai}}</option>
+										<option value="{{$province->name}}">{{$province->name}}</option>
 										@endforeach
 									</select>
                                     @if ($errors->has('country_order'))

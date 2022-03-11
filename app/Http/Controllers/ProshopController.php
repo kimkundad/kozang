@@ -76,9 +76,7 @@ class ProshopController extends Controller
              'price' => 'required',
              'detail' => 'required',
              'rating' => 'required',
-             'code_pro' => 'required',
-             'shipping_price' => 'required',
-             'stock' => 'required'
+             'code_pro' => 'required'
          ]);
 
 
@@ -97,8 +95,6 @@ class ProshopController extends Controller
        $package->code_pro = $request['code_pro'];
        $package->detail = $request['detail'];
        $package->rating = $request['rating'];
-       $package->stock = $request['stock'];
-       $package->shipping_price = $request['shipping_price'];
        $package->image_pro = $input['imagename'];
        $package->save();
 
@@ -178,9 +174,7 @@ class ProshopController extends Controller
                'price' => 'required',
                'detail' => 'required',
                'rating' => 'required',
-               'code_pro' => 'required',
-               'shipping_price' => 'required',
-               'stock' => 'required'
+               'code_pro' => 'required'
            ]);
 
            $package = product::find($id);
@@ -190,8 +184,6 @@ class ProshopController extends Controller
            $package->code_pro = $request['code_pro'];
            $package->detail = $request['detail'];
            $package->rating = $request['rating'];
-           $package->stock = $request['stock'];
-           $package->shipping_price = $request['shipping_price'];
            $package->save();
 
         }else{

@@ -37,12 +37,12 @@ html.no-overflowscrolling .nano > .nano-pane > .nano-slider {
 										</a>
 									</li>
 
-                <!--  <li {{ (Request::is('admin/category*') ? 'class=nav-expanded' : '') }} >
+                 <li {{ (Request::is('admin/category*') ? 'class=nav-expanded' : '') }} >
 										<a href="{{url('admin/category/')}}"  >
 											<i class="fa fa-tasks" aria-hidden="true"></i>
 											<span>จัดการหมวดหมู่</span>
 										</a>
-									</li> -->
+									</li> 
 
 
 
@@ -60,7 +60,7 @@ html.no-overflowscrolling .nano > .nano-pane > .nano-slider {
 										</a>
 									</li>
 
-                <!--  <li {{ (Request::is('admin/order*') ? 'class=nav-expanded' : '') }} >
+                  <li {{ (Request::is('admin/order*') ? 'class=nav-expanded' : '') }} >
 										<a href="{{url('admin/order/')}}"  >
 											<i class="fa fa-external-link" aria-hidden="true"></i>
 											<span>การสั่งซื้อ</span>
@@ -72,15 +72,15 @@ html.no-overflowscrolling .nano > .nano-pane > .nano-slider {
 											<i class="fa fa-bell-o" aria-hidden="true"></i>
 											<span>จัดการ สินค้า</span>
 										</a>
-									</li>
+									</li> 
 
 
-									<li {{ (Request::is('admin/banner*') ? 'class=nav-expanded' : '') }} >
+								<!--	<li {{ (Request::is('admin/banner*') ? 'class=nav-expanded' : '') }} >
 										<a href="{{url('admin/banner/')}}"  >
 											<i class="fa fa-image" aria-hidden="true"></i>
 											<span>จัดการ Banner</span>
 										</a>
-									</li> -->
+									</li>  
 
 
                   					<li {{ (Request::is('admin/set_text*') ? 'class=nav-expanded' : '') }} >
@@ -88,10 +88,10 @@ html.no-overflowscrolling .nano > .nano-pane > .nano-slider {
 											<i class="fa fa-anchor" aria-hidden="true"></i>
 											<span>จัดการข้อความ</span>
 										</a>
-									</li>
+									</li> -->
 
 
-							<!--		<li {{ (Request::is('admin/review_shop*') ? 'class=nav-expanded' : '') }} >
+								<li {{ (Request::is('admin/review_shop*') ? 'class=nav-expanded' : '') }} >
 										<a href="{{url('admin/review_shop/')}}"  >
 											<i class="fa fa-comment" aria-hidden="true"></i>
 											<span>รีวิวร้านค้า</span>
@@ -110,7 +110,7 @@ html.no-overflowscrolling .nano > .nano-pane > .nano-slider {
 											<i class="fa fa-gift" aria-hidden="true"></i>
 											<span>ส่วนลดสินค้า</span>
 										</a>
-									</li> -->
+									</li>
 
 
 

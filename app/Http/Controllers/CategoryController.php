@@ -29,10 +29,10 @@ class CategoryController extends Controller
             $s = 1;
             foreach ($cat as $obj) {
                 $optionsRes = [];
-                $options = DB::table('shops')->select(
-                  'shops.*'
+                $options = DB::table('products')->select(
+                  'products.*'
                   )
-                  ->where('category_id', $obj->id)
+                  ->where('cat_id', $obj->id)
                   ->count();
 
                      $optionsRes['count'] = $options;

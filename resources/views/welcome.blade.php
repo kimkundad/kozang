@@ -529,7 +529,7 @@ kozang - ค้นหาร้านวัสดุก่อสร้าง
 </style>
 
 
-    <div class="container margin_60">
+  <!--  <div class="container margin_60">
             <div class="main_title">
                 <h2> <span>พันธมิตรของเรา</span> </h2>
             </div>
@@ -565,8 +565,8 @@ kozang - ค้นหาร้านวัสดุก่อสร้าง
                 </div>
               
               </div>
-                <!-- /row -->
-        </div>
+             
+        </div> -->
 
 
 <!-- End container -->

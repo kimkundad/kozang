@@ -297,4 +297,27 @@ a.btn_1, .btn_1 {
 .custom-search-input-2 input[type=submit] {
     background-color: #ecb31d !important;
 }
+.table.table_summary tr.total {
+    color: #ecb31c;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.form_title h3 strong {
+    background-color: #ecb31c;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
 </style>

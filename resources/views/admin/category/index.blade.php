@@ -38,6 +38,9 @@
 
 <div class="row">
               <div class="row">
+
+              
+
               <div class="col-xs-12">
 
             <section class="panel">
@@ -46,7 +49,9 @@
 
               <div class="panel-body">
 
-
+              <a class="btn btn-primary " href="{{url('admin/category/create')}}" >
+                      <i class="fa fa-plus"></i> เพิ่มหมวดหมู่สินค้า</a>
+                      <br><br>
 
 
 
@@ -57,7 +62,7 @@
                     <tr>
                       <th>#</th>
                       <th>ชื่อหมวดหมู่</th>
-                      <th>จำนวน ร้านค้า</th>
+                      <th>จำนวน สินค้า</th>
 
 
                       <th>จัดการ</th>

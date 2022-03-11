@@ -82,10 +82,21 @@
 										<label for="name" class="col-sm-3 control-label">Location <span class="text-danger">*</span></label>
 										<div class="col-sm-4">
 											<input type="text" name="lat" id="lat" size="10" value="{{ old('lat') }}" class="form-control" required>
+											@if ($errors->has('lat'))
+                                    <span class="text-danger">
+                                        <strong>จิ้มลงบนแผ่นที่เพื่อนใส่พิกัด</strong>
+                                    </span>
+                                @endif
 										</div>
 										<div class="col-sm-4">
 											<input type="text" name="lng" id="lng" size="10" value="{{ old('lng') }}" class="form-control" required>
+											@if ($errors->has('lng'))
+                                    <span class="text-danger">
+                                        <strong>จิ้มลงบนแผ่นที่เพื่อนใส่พิกัด</strong>
+                                    </span>
+                                @endif
 										</div>
+
 										</div>
 
                            
@@ -116,7 +127,12 @@
                                   <div class="form-group">
           													<label class="col-md-3 control-label" for="profileFirstName">phone number*</label>
           													<div class="col-md-8">
-          														<input type="text" class="form-control" name="phone" value="{{ old('phone') }}">
+          														<input type="text" class="form-control" name="phone" value="{{ old('phone') }}" required>
+																  @if ($errors->has('phone'))
+                                    <span class="text-danger">
+                                        <strong>กรุณาใส่เบอร์โทร</strong>
+                                    </span>
+                                @endif
           														</div>
           												</div>
 
@@ -184,7 +200,12 @@
                                   <div class="form-group">
           													<label class="col-md-3 control-label" for="profileFirstName">จำนวนดาว ร้านค้า*</label>
           													<div class="col-md-8">
-          														<input type="number" class="form-control" name="rating" value="{{ old('rating') }}" placeholder="ใส่ตัวเลข 1 - 5 ">
+          														<input type="number" class="form-control" name="rating" value="{{ old('rating') }}" placeholder="ใส่ตัวเลข 1 - 5 " required>
+																  @if ($errors->has('rating'))
+                                    <span class="text-danger">
+                                        <strong>กรุณาใส่จำนวนดาวร้านค้า</strong>
+                                    </span>
+                                @endif
           														</div>
           												</div>
 

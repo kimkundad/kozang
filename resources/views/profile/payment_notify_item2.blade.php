@@ -12,7 +12,7 @@ TEENEEJJ - ตลาดนัดสวนจตุจักร
 @section('content')
 
 
-<section class="parallax-window" style="min-height: 270px;" data-parallax="scroll" data-image-src="{{url('assets/img/home_bg_3.jpg')}}" data-natural-width="1400" data-natural-height="370">
+<section class="parallax-window" style="min-height: 270px;" data-parallax="scroll" data-image-src="{{url('img/geometic-bg-green.png')}}" data-natural-width="1400" data-natural-height="370">
             
         </section>
 
