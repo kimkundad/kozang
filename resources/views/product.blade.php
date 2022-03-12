@@ -1,7 +1,7 @@
 @extends('layouts.template')
 
 @section('title')
-TEENEEJJ - ตลาดนัดสวนจตุจักร
+{{$product->name_pro}} || kozang
 @stop
 
 @section('stylesheet')
