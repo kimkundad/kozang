@@ -320,4 +320,10 @@ a.btn_1, .btn_1 {
     left: 0;
     top: 0;
 }
+.tooltip-back {
+    background: #ecb31c;
+}
+.tooltip-content-flip .tooltip-back::after {
+    border-top: 10px solid #ecb31c;
+}
 </style>
