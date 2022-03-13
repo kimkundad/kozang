@@ -86,9 +86,9 @@ a#line_id:before {
                   <div id="social_footer">
                       <ul>
                           <li><a href="https://www.facebook.com/wiseboq"><i class="icon-facebook"></i></a></li>
-                          <li><a href=""><i class="icon-twitter"></i></a></li>
-                          <li><a href=""><i class="icon-google"></i></a></li>
-                          <li><a href="https://instagram.com/teeneejj/"><i class="icon-instagram"></i></a></li>
+                          <li><a href="#"><i class="icon-twitter"></i></a></li>
+                          <li><a href="#"><i class="icon-google"></i></a></li>
+                          <li><a href="#"><i class="icon-instagram"></i></a></li>
 
                       </ul>
                       <p>© Kozang 2022</p>
