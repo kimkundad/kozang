@@ -1,7 +1,7 @@
 @extends('layouts.template')
 
 @section('title')
-TEENEEJJ - ตลาดนัดสวนจตุจักร
+เก็บโค้ดส่วนลด - kozang
 @stop
 
 @section('stylesheet')
@@ -21,7 +21,7 @@ TEENEEJJ - ตลาดนัดสวนจตุจักร
             	<div class="container">
                         	<ul>
                             <li><a href="{{url('/')}}">{{ trans('message.index') }}</a></li>
-                            <li><a href="#">เก็บโค้ดส่วนลดจาก TeeNeeJJ</a></li>
+                            <li><a href="#">เก็บโค้ดส่วนลดจาก kozang</a></li>
 
                             </ul>
                 </div>
@@ -31,7 +31,7 @@ TEENEEJJ - ตลาดนัดสวนจตุจักร
             <div class="container margin_60">
 
     <div class="main_title">
-        <h2>เก็บโค้ดส่วนลดจาก <span> TeeNeeJJ </span></h2>
+        <h2>เก็บโค้ดส่วนลดจาก <span> kozang </span></h2>
         <br>
         <p> เงื่อนไข ของโค้ดส่วนลดที่ลูกค้าได้รับนั้น เป็นไปตามเงื่อนไขที่ทางบริษัทกำหนด อาจมีการเปลี่ยนแปลงได้ตลอดเวลา</p>
     </div>

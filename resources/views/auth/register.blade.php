@@ -1,7 +1,7 @@
 @extends('layouts.template')
 
 @section('title')
-TEENEEJJ - ตลาดนัดสวนจตุจักร
+ค้นหาร้านวัสดุก่อสร้าง - kozang
 @stop
 
 @section('stylesheet')

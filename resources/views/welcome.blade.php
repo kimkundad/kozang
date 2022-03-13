@@ -1,7 +1,7 @@
 @extends('layouts.template')
 
 @section('title')
-kozang - ค้นหาร้านวัสดุก่อสร้าง
+ค้นหาร้านวัสดุก่อสร้าง - kozang
 @stop
 
 @section('stylesheet')
