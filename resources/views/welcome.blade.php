@@ -480,20 +480,23 @@
                     </div>
                 </div>
                 <br><br>
-                <div class="banner_2">
-                    
-                    <!-- /wrapper -->
-                    <a href="#">
-                    <img src="{{ url('img/banner_FB.jpg') }}" class="img-responsive">
-                    </a>
-                </div>
+                
                 <!-- /banner_2 -->
 
 			</div>
 			<!-- End container -->
 		</div>
 
+    <div class="white_bg">
 
+    <div class="banner_2">
+                    
+                    <!-- /wrapper -->
+                    <a href="#">
+                    <img src="{{ url('img/banner_FB.jpg') }}" class="img-responsive">
+                    </a>
+                </div>
+    </div>
 
 
 <style>
