@@ -489,7 +489,7 @@
 
     <div class="white_bg">
 
-    <div class="banner_2">
+    <div class="">
                     
                     <!-- /wrapper -->
                     <a href="#">
