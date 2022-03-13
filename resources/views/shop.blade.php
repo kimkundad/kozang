@@ -524,7 +524,7 @@ figcaption {
                                   <h4>Social share</h4>
                               </div>
                                       <div class="col-md-8" >
-                                        <div class="fb-like" data-href="https://www.teeneejj.com/shop/{{$objs->id_p}}" data-layout="button_count" data-action="recommend" data-size="small" data-show-faces="true" data-share="true"></div>
+                                        <div class="fb-like" data-href="https://kozang.com/shop/{{$objs->id_p}}" data-layout="button_count" data-action="recommend" data-size="small" data-show-faces="true" data-share="true"></div>
                                       </div>
 
 
