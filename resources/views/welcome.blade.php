@@ -492,9 +492,14 @@
     <div class="">
                     
                     <!-- /wrapper -->
-                    <a href="#">
-                    <img src="{{ url('img/banner_FB.jpg') }}" class="img-responsive">
-                    </a>
+                    
+
+                    @if(isset($ban))
+                      @foreach($ban as $u)
+                      <a target="_blank" href="{{ $u->image_url }}"><img src="{{url('assets/banner/'.$u->image)}}" class="img-responsive margin-top-20" /></a>
+                      @endforeach
+                    @endif
+
                 </div>
     </div>
 

@@ -75,7 +75,7 @@ html.no-overflowscrolling .nano > .nano-pane > .nano-slider {
 									</li> 
 
 
-								<!--	<li {{ (Request::is('admin/banner*') ? 'class=nav-expanded' : '') }} >
+								<li {{ (Request::is('admin/banner*') ? 'class=nav-expanded' : '') }} >
 										<a href="{{url('admin/banner/')}}"  >
 											<i class="fa fa-image" aria-hidden="true"></i>
 											<span>จัดการ Banner</span>
@@ -83,7 +83,7 @@ html.no-overflowscrolling .nano > .nano-pane > .nano-slider {
 									</li>  
 
 
-                  					<li {{ (Request::is('admin/set_text*') ? 'class=nav-expanded' : '') }} >
+                  				<!--	<li {{ (Request::is('admin/set_text*') ? 'class=nav-expanded' : '') }} >
 										<a href="{{url('admin/set_text/')}}"  >
 											<i class="fa fa-anchor" aria-hidden="true"></i>
 											<span>จัดการข้อความ</span>
