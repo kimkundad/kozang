@@ -593,6 +593,7 @@ $data['category1'] = $cat;
                    'shops.detail_en as details_en',
                    'shops.detail_cn as details_cn',
                    'shops.name as names',
+                   'shops.image as image_shop',
                    'categories.*',
                    'categories.id as id_c',
                    'categories.name as name_c'
@@ -600,8 +601,6 @@ $data['category1'] = $cat;
            ->leftjoin('categories', 'categories.id',  'shops.category_id')
            ->where('shops.id', $id)
            ->first();
-
-           dd($objs);
            
 
 
