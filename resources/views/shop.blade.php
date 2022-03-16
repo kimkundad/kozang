@@ -208,7 +208,7 @@ if(count(home_image) == 0)
 
 
 
-@else
+@endif
 </div>
 
 
