@@ -528,15 +528,16 @@ $data['category1'] = $cat;
       if($term != null && $shop_name != null){
 
         $objs = DB::table('shops')
-             ->where('name', 'LIKE', "%{$shop_name}%")
+             ->where('keyword', 'LIKE', "%{$shop_name}%")
              ->Where('province', 'LIKE', "%{$term}%")
              ->paginate(15);
+
 
       }
       if($term == null && $shop_name != null){
 
         $objs = DB::table('shops')
-             ->where('name', 'LIKE', "%{$shop_name}%")
+             ->where('keyword', 'LIKE', "%{$shop_name}%")
              ->paginate(15);
 
       }

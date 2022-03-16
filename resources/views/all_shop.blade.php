@@ -27,7 +27,7 @@
 <section class="parallax-window" data-parallax="scroll" data-image-src="{{url('img/geometic-bg-green.png')}}" data-natural-width="1400" data-natural-height="370">
             <div class="parallax-content-1">
               <div class="animated fadeInDown">
-                <h1>{{ trans('message.total_shop') }}</h1>
+                <h1>ร้านวัสดุก่อสร้างทั้งหมด - kozang</h1>
 
               </div>
             </div>
@@ -37,7 +37,7 @@
             	<div class="container">
                         	<ul>
                             <li><a href="{{url('/')}}">{{ trans('message.index') }}</a></li>
-                            <li><a href="#">{{ trans('message.total_shop') }}</a></li>
+                            <li><a href="#">ร้านวัสดุก่อสร้างทั้งหมด - kozang</a></li>
 
                             </ul>
                 </div>
@@ -49,7 +49,7 @@
             <div class="container margin_60">
 
               <div class="main_title">
-                <h2> <span>{{ trans('message.sub_title_home') }} </span> </h2>
+                <h2> <span>ร้านวัสดุก่อสร้างทั้งหมด - kozang </span> </h2>
 
 
               </div>
