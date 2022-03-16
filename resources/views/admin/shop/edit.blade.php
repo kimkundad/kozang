@@ -208,7 +208,7 @@
                                   <div class="form-group">
           													<label class="col-md-3 control-label" for="profileFirstName">คำอธิบายร้านค้า*</label>
           													<div class="col-md-9">
-                                      <textarea class="form-control" name="details_th" rows="9">{{$objs->detail}}</textarea>
+                                      <textarea class="form-control" name="details_th" rows="9">{{$objs->details_th}}</textarea>
           													</div>
           												</div>
 

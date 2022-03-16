@@ -314,7 +314,7 @@ class ShopController extends Controller
         $data['objs'] = $cat;
         $data['datahead'] = "แก้ไขร้านค้า";
 
-        dd($cat);
+      //  dd($cat);
 
 
         return view('admin.shop.edit', $data);
