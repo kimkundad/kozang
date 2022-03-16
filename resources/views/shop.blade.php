@@ -203,7 +203,7 @@
 <div class="col-md-12">
 
   <a class="example-image-link" href="{{url('assets/image/cusimage/'.$objs->image_shop)}}" >
-    <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$objs->image_shop)}}" alt="">
+    <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$objs->image_shop)}}" style="width: 100%;" alt="">
   </a>
 </div>
 
