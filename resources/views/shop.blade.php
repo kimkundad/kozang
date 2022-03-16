@@ -198,7 +198,7 @@
 
 
 <div class="row magnific-gallery">
-if(count(home_image) == 0)
+@if(count(home_image) == 0)
 
 <div class="col-md-12">
 
