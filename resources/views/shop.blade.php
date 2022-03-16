@@ -143,283 +143,56 @@
               <div class="row">
                       <div class="col-md-10 col-md-offset-1" id="single_tour_desc">
 
-                          <div class="row magnific-gallery hidden-sm hidden-xs">
-
-
-          @if($home_image_all != null)
-              @if($home_image_count > 4)
-
-            <div class="col-md-6 col-sm-6" style="padding-right: 3px;">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[0]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[0]->image)}}" alt="" ></a>
-            </div>
-
-            <div class="col-md-6 col-sm-6" style="padding-left: 3px;">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[1]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[1]->image)}}" alt="" ></a>
-            </div>
-
-            <div class="col-md-4 col-sm-4" style="padding-right: 0px; padding-top:5px">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[2]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[2]->image)}}" alt=""></a>
-            </div>
-
-            <div class="col-md-4 col-sm-4" style="padding-left: 6px; padding-right:6px; padding-top:5px; ">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[3]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[3]->image)}}" alt=""></a>
-            </div>
-
-
-            <div class="col-md-4 col-sm-4" style="padding-left: 0px; padding-top:5px">
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[4]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[4]->image)}}" alt="">
-              <div class="see-all-overlay"><span class="see-all-overlay-text">ดูทั้งหมด {{$home_image_count}} รูป</span></div></a>
-            </div>
-
-            @elseif($home_image_count == 4)
-
-
-            <div class="col-md-6 col-sm-6" style="padding-right: 3px;">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[0]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[0]->image)}}" alt="" ></a>
-            </div>
-
-            <div class="col-md-6 col-sm-6" style="padding-left: 3px;">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[1]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[1]->image)}}" alt="" ></a>
-            </div>
-
-            <div class="col-md-6 col-sm-6" style="padding-right: 0px; padding-top:5px">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[2]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[2]->image)}}" alt=""></a>
-            </div>
-
-            <div class="col-md-6 col-sm-6" style="padding-left: 6px; padding-top:5px; ">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[3]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[3]->image)}}" alt=""></a>
-            </div>
-
-            @elseif($home_image_count == 3)
-
-
-            <div class="col-md-6 col-sm-6" style="padding-right: 3px;">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[0]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[0]->image)}}" alt="" ></a>
-            </div>
-
-            <div class="col-md-6 col-sm-6" style="padding-left: 3px;">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[1]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[1]->image)}}" alt="" ></a>
-            </div>
-
-            <div class="col-md-12 col-sm-12" style=" padding-top:5px">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[2]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[2]->image)}}" alt=""></a>
-            </div>
-
-
-            @elseif($home_image_count == 2)
-
-
-            <div class="col-md-6 col-sm-6" style="padding-right: 3px;">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[0]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[0]->image)}}" alt=""></a>
-            </div>
-
-            <div class="col-md-6 col-sm-6" style="padding-left: 3px;">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[1]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[1]->image)}}" alt=""></a>
-            </div>
-
-            @elseif($home_image_count == 1)
-
-            <div class="col-md-6 col-sm-6">
-
-<a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[1]->image)}}" >
-  <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[1]->image)}}" alt=""></a>
-</div>
-
-           
-
-            @else
-
             
-            
-            
+                      
 
-            @endif
-            @endif
+<style>
 
+.grid-wrapper > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.grid-wrapper > div > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
 
-
-
-
-            <div class="hidden">{{$i = 0}}</div>
-            @if($home_image_all != null)
-            @foreach ($home_image_all as $images)
-            <div class="hidden">{{$i++}}</div>
-            @if($i > 5)
-
-            <div class="col-md-4 col-sm-4 hidden " style="padding-left: 0px; padding-top:5px">
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$images->image)}}" >
-            </a>
-            </div>
-            @endif
-
-            @endforeach
-            @endif
-
-            </div>
-
-
-
-            <div class="row magnific-gallery visible-sm visible-xs">
-            @if($home_image_all != null)
-
-  @if($home_image_count > 4)
-
-<div class="col-md-6 col-sm-6 col-xs-6" style="padding-right: 3px; margin-bottom: 8px;">
-
-<a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[0]->image)}}" >
-  <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[0]->image)}}" alt=""></a>
-</div>
-
-<div class="col-md-6 col-sm-6 col-xs-6" style="padding-left: 3px; margin-bottom: 8px;">
-
-<a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[1]->image)}}" >
-  <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[1]->image)}}" alt=""></a>
-</div>
-
-<div class="col-md-4 col-sm-4 col-xs-4" style="padding-right: 3px; margin-bottom: 8px;">
-
-<a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[2]->image)}}" >
-  <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[2]->image)}}" alt=""></a>
-</div>
-
-<div class="col-md-4 col-sm-4 col-xs-4" style="padding-right: 3px; margin-bottom: 8px;">
-
-<a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[3]->image)}}" >
-  <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[3]->image)}}" alt=""></a>
-</div>
+.grid-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 200px;
+	grid-auto-flow: dense;
+}
+.grid-wrapper .wide {
+	grid-column: span 2;
+}
+.grid-wrapper .tall {
+	grid-row: span 2;
+}
+.grid-wrapper .big {
+	grid-column: span 2;
+	grid-row: span 2;
+}
 
 
-<div class="col-md-4 col-sm-4 col-xs-4" style="padding-left: 3px; margin-bottom: 8px;">
-<a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[4]->image)}}" >
-  <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[4]->image)}}" alt="">
-  <div class="see-all-overlay" ><span class="see-all-overlay-text">ดูทั้งหมด {{$home_image_count}} รูป</span></div></a>
-</div>
-
-@elseif($home_image_count == 4)
+</style>
+                      
 
 
-<div class="col-md-6 col-sm-6 col-xs-6" style="padding-right: 3px; margin-bottom: 8px;">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[0]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[0]->image)}}" alt="" ></a>
-            </div>
-
-            <div class="col-md-6 col-sm-6 col-xs-6" style="padding-left: 3px; margin-bottom: 8px;">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[1]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[1]->image)}}" alt="" ></a>
-            </div>
-
-            <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right: 3px; margin-bottom: 8px;">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[2]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[2]->image)}}" alt=""></a>
-            </div>
-
-            <div class="col-md-6 col-sm-6 col-xs-6" style="padding-left: 3px; margin-bottom: 8px;">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[3]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[3]->image)}}" alt=""></a>
-            </div>
-
-            @elseif($home_image_count == 3)
-
-
-            <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right: 3px; margin-bottom: 8px;">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[0]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[0]->image)}}" alt="" ></a>
-            </div>
-
-            <div class="col-md-6 col-sm-6 col-xs-6" style="padding-left: 3px; margin-bottom: 8px;">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[1]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[1]->image)}}" alt="" ></a>
-            </div>
-
-            <div class="col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 8px;">
-
-            <a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[2]->image)}}" >
-              <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[2]->image)}}" alt=""></a>
-            </div>
-
-            @elseif($home_image_count == 2)
-
-            <div class="col-md-6 col-sm-6" style="padding-right: 3px; margin-bottom: 8px;">
-
-<a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[0]->image)}}" >
-  <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[0]->image)}}" alt=""></a>
-</div>
-
-<div class="col-md-6 col-sm-6" style="padding-left: 3px; margin-bottom: 8px;">
-
-<a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[1]->image)}}" >
-  <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[1]->image)}}" alt=""></a>
-</div>
-
-@elseif($home_image_count == 1)
-
-<div class="col-md-12 " style="margin-bottom: 8px;">
-
-<a class="example-image-link" href="{{url('assets/image/cusimage/'.$home_image[0]->image)}}" >
-  <img class="img-responsive example-image" src="{{url('assets/image/cusimage/'.$home_image[0]->image)}}" alt=""></a>
-</div>
-
-@else
-
-
-
-
-
-@endif
-@endif
-
-<div class="hidden">{{$i = 0}}</div>
-@if($home_image_all != null)
-@foreach ($home_image_all as $images)
-<div class="hidden">{{$i++}}</div>
-@if($i > 5)
-
-<div class="col-md-4 col-sm-4 hidden " >
-<a class="example-image-link" href="{{url('assets/image/cusimage/'.$images->image)}}" >
-</a>
-</div>
-@endif
-
-@endforeach
-@endif
+                      <div class="grid-wrapper">
+                        @if(isset($home_image))
+                        @foreach($home_image as $u)
+	<div>
+		<img src="{{url('assets/image/cusimage/'.$u->image)}}" alt="" />
+	</div>
+  @endforeach
+	@endif
 
 </div>
-
-
-
 
 
 
