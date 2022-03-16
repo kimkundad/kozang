@@ -153,7 +153,7 @@
 	justify-content: center;
 	align-items: center;
 }
-.grid-wrapper > div > img {
+.grid-wrapper > div > a > img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
@@ -183,11 +183,13 @@
                       
 
 
-                      <div class="grid-wrapper">
+                      <div class="grid-wrapper magnific-gallery">
                         @if(isset($home_image))
                         @foreach($home_image as $u)
 	<div>
+  <a class="example-image-link" href="{{url('assets/image/cusimage/'.$u->image)}}" >
 		<img src="{{url('assets/image/cusimage/'.$u->image)}}" alt="" />
+</a>
 	</div>
   @endforeach
 	@endif
