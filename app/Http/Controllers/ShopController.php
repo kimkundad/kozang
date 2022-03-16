@@ -376,10 +376,7 @@ class ShopController extends Controller
           $this->validate($request, [
             'image' => 'required|max:8048',
              'name_q' => 'required',
-             'cat_id' => 'required',
              'phone' => 'required',
-             'startprice' => 'required',
-             'endprice' => 'required',
              'rating' => 'required'
          ]);
 
