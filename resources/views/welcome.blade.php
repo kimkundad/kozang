@@ -178,7 +178,27 @@
     <p class="sub_title_main_p" >สามารถค้นหาข้อมูลร้านวัสดุก่อสร้างและบริการ ข้อมูลแผนที่ธุรกิจได้ทันที  </p>
   </div>
 
+<style>
+  .img_container > a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.img_container > a > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 5px;
+}
 
+.img_container {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-auto-rows: 200px;
+	grid-auto-flow: dense;
+}
+</style>
 
   <div class="row">
 
@@ -196,7 +216,8 @@
       <div class="tour_container">
         <div class="img_container">
           <a href="{{url('shop/'.$shops->id)}}">
-            <img src="{{url('assets/image/cusimage/'.$shops->image)}}" class="img-responsive" alt="Image">
+          <!--  <img src="{{url('assets/image/cusimage/'.$shops->image)}}" class="img-responsive" alt="Image"> https://kozang.com/assets/image/cusimage/1647678297.jpg -->
+          <img src="{{url('assets/image/cusimage/'.$shops->image)}}" class="img-responsive" alt="Image">
             <div class="short_info">
               {{$shops->name}}
             </div>
