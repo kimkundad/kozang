@@ -255,10 +255,10 @@
   <br><hr>
   <br>
   <div class="main_title">
-    <h2> <span style="font-size: 28px;"> สินค้าใหม่ <!--{{ trans('message.sub_title_home_pro') }} --></span> ไม่เหมือนใคร</h2>
+    <h2> <span style="font-size: 28px;"> สินค้า <!--{{ trans('message.sub_title_home_pro') }} --></span> ลดราคาพิเศษ</h2>
 
     <br>
-    <p style="font-size:20px;">สินค้าใหม่เปลี่ยนทุกวันจันทร์ สั่งซื้อได้ก่อนใคร สะดวกรวดเร็ว <!-- {{ trans('message.sub_title_home_2_pro') }}--></p>
+    <p style="font-size:20px;">สินค้าลดราคาพิเศษ มีจำนวนจำกัดจากร้านค้าต่างๆ<!-- {{ trans('message.sub_title_home_2_pro') }}--></p>
   </div>
  
 
@@ -483,21 +483,21 @@
                       <i class="icon_set_1_icon-41"></i>
                       </div>
                       <h3><span>+120k</span> ร้านวัสดุก่อสร้าง</h3>
-                        <p>Suscipit invenire petentium per in. Ne magna assueverit vel. Vix movet perfecto facilisis in, ius ad maiorum corrumpit, his esse docendi in.</p>
+                        <p>รวบรวมร้านวัสดุก่อสร้างทั่วประเทศ มีข้อมูลสามารถติดต่อและรายละเอียด รวมทั้งตำแหน่งที่ตั้ง อำนวยความสะดวกในการค้นหาร้านวัสดุก่อสร้างได้อย่างรวดเร็ว</p>
                     </div>
                     <div class="col-md-4 text-center">
                     <div class="feature_home_x">
                       <i class="icon_set_1_icon-30"></i>
                       </div>
                       <h3><span>+ 1000</span> ผู้ใช้งาน</h3>
-                        <p> Cum accusam voluptatibus at, et eum fuisset sententiae. Postulant tractatos ius an, in vis fabulas percipitur, est audiam phaedrum electram ex.</p>
+                        <p> ีผู้ใช้งานหลากหลายกลุ่ม ทั้งคนทั่วไป ช่างรับเหมา ผู้รับเหมา หน่วยงานจัดซื้อ และโครงการต่างๆ เป็นช่องทางที่ดีสำหรับร้านค้าวัสดุก่อสร้างที่จะเข้าถึงกลุ่มลูกค้าได้กลาหลาย เพียงลงข้อมูลกับทางเรา</p>
                     </div>
                     <div class="col-md-4 text-center">
                     <div class="feature_home_x">
                       <i class="icon_set_1_icon-57"></i>
                       </div>
-                      <h3><span>ติดต่อ</span> เพิ่มร้านค้าง่าย</h3>
-                        <p>Integre vivendo percipitur eam in, graece suavitate cu vel. Per inani persius accumsan no. An case duis option est, pro ad fastidii contentiones.</p>
+                      <h3><span>ติดต่อ</span> ร้านค้าเพิ่ม</h3>
+                        <p>ร้านค้าวัสดุก่อสร้างที่ต้องการลงข้อมูล หรือแก้ไขข้อมูลต่างๆ เพื่อเพิ่มโอกาสในการเข้าถึงลูกค้าและเพิ่มยอดขาย สามารถติดต่อทางเราได้โดยตรง</p>
                     </div>
                 </div>
                 <br><br>

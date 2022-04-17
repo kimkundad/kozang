@@ -80,8 +80,7 @@ class ProshopController extends Controller
          ]);
 
 
-         $input['imagename'] = time().'.'.$image->getClientOriginalExtension();
-
+          $input['imagename'] = time().'.'.$image->getClientOriginalExtension();
           $destinationPath = asset('assets/image/product/');
           $img = Image::make($image->getRealPath());
           $img->resize(800, 800, function ($constraint) {

@@ -59,7 +59,7 @@
 						<i class="icon_set_1_icon-30"></i>
 						<h3><span>+ 1000</span> ผู้ใช้งาน</h3>
 						<p>
-							Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.
+						มีผู้ใช้งานหลากหลายกลุ่ม ทั้งคนทั่วไป ช่างรับเหมา ผู้รับเหมา หน่วยงานจัดซื้อ และโครงการต่างๆ เป็นช่องทางที่ดีสำหรับร้านค้าวัสดุก่อสร้างที่จะเข้าถึงกลุ่มลูกค้าได้กลาหลาย เพียงลงข้อมูลกับทางเรา
 						</p>
 					</div>
 				</div>
@@ -68,7 +68,7 @@
 						<i class="icon_set_1_icon-41"></i>
 						<h3><span>+120k</span> ร้านวัสดุก่อสร้าง</h3>
 						<p>
-							Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.
+            รวบรวมร้านวัสดุก่อสร้างทั่วประเทศ มีข้อมูลสามารถติดต่อและรายละเอียด รวมทั้งตำแหน่งที่ตั้ง อำนวยความสะดวกในการค้นหาร้านวัสดุก่อสร้างได้อย่างรวดเร็ว
 						</p>
 					</div>
 				</div>
@@ -79,9 +79,9 @@
 				<div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
 					<div class="feature">
 						<i class="icon_set_1_icon-57"></i>
-						<h3><span>ติดต่อ</span> เพิ่มร้านค้า</h3>
+						<h3><span>ติดต่อ</span> ร้านค้าเพิ่ม</h3>
 						<p>
-							Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.
+            ร้านค้าวัสดุก่อสร้างที่ต้องการลงข้อมูล หรือแก้ไขข้อมูลต่างๆ เพื่อเพิ่มโอกาสในการเข้าถึงลูกค้าและเพิ่มยอดขาย สามารถติดต่อทางเราได้โดยตรง
 						</p>
 					</div>
 				</div>
@@ -90,7 +90,7 @@
 						<i class="icon_set_1_icon-61"></i>
 						<h3><span>ร้านวัสดุก่อสร้าง</span> ที่มากที่สุด</h3>
 						<p>
-							Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.
+            เรามั่นใจว่า เราเป็นตัวกลางในการรวบรวมข้อมูลร้านค้าวัสดุก่อสร้างที่มากที่สุด และให้ข้อมูลครบถ้วน อำนวยความสะดวกให้แก่ผู้ใช้งานที่ต้องการเข้าถึงร้านค้าวัสดุก่อสร้าง ทั่วประเทศ
 						</p>
 					</div>
 				</div>
