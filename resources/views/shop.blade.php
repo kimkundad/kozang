@@ -76,7 +76,7 @@
 /* secure_url */
 </style>
 
-<section class="parallax-window" style="min-height: 270px;" data-parallax="scroll" data-image-src="{{url('img/geometic-bg-green.png')}}" data-natural-width="1400" data-natural-height="470">
+<section class="parallax-window" style="min-height: 270px;" data-parallax="scroll" data-image-src="{{url('img/439551.jpg')}}" data-natural-width="1400" data-natural-height="470">
     <div class="parallax-content-2">
         <div class="container">
             <div class="row">
