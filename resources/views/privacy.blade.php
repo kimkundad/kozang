@@ -11,7 +11,7 @@
 @section('content')
 
 
-<section class="parallax-window" data-parallax="scroll" data-image-src="{{url('img/439551.jpg')}}" data-natural-width="1400" data-natural-height="370">
+<section class="parallax-window" data-parallax="scroll" data-image-src="{{url('img/bg_kozang.jpg')}}" data-natural-width="1400" data-natural-height="370">
             <div class="parallax-content-1">
               
             </div>
