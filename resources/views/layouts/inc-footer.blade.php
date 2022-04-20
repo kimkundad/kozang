@@ -58,7 +58,7 @@ a#line_id:before {
                       <li><a href="{{url('/delete_account')}}">การลบข้อมูลผู้ใช้</a></li> 
 
                   </ul>
-                <h3>Languages</h3>
+             <!--   <h3>Languages</h3>
                 <select class="form-control" name="lang" id="lang">
                             <option value="{{ URL::to('change/th') }}"
                             @if(trans('message.lang') == 'ไทย')
@@ -69,7 +69,7 @@ a#line_id:before {
                             selected=""
                             @endif>English</option>
                            
-                        </select>
+                        </select> -->
               </div>
               <div class="col-md-4 col-sm-3">
                   <h3>Fanpage</h3>

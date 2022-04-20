@@ -76,7 +76,7 @@
                         </li>
                         <li><a href="{{url('wishlist')}}" id="wishlist_link">{{ trans('message.wishlist') }}</a></li>
                         <li><a href="{{url('confirm_payment')}}" id="icon-dollar"><i class="icon-dollar"></i>{{ trans('message.payment') }}</a></li>
-                        <li>Language : {{ trans('message.lang') }}</li>
+                      <!--  <li>Language : {{ trans('message.lang') }}</li> -->
                     </ul>
                 </div>
             </div><!-- End row -->
@@ -144,7 +144,7 @@
                  </li>
 
                  @endif
-                 <li class="submenu">
+              <!--   <li class="submenu">
                                 <a href="javascript:void(0);" class="show-submenu">Choose language <i class="icon-down-open-mini"></i></a>
                                 <ul>
 
@@ -152,7 +152,7 @@
                                     <li><a href="{{ URL::to('change/en') }}">English language</a></li>
 
                                 </ul>
-                 </li>
+                 </li> -->
 
 
 
