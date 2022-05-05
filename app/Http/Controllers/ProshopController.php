@@ -94,6 +94,8 @@ class ProshopController extends Controller
        $package->code_pro = $request['code_pro'];
        $package->detail = $request['detail'];
        $package->rating = $request['rating'];
+       $package->stock = $request['stock'];
+       $package->shipping_price = $request['shipping_price'];
        $package->image_pro = $input['imagename'];
        $package->save();
 
@@ -183,6 +185,8 @@ class ProshopController extends Controller
            $package->code_pro = $request['code_pro'];
            $package->detail = $request['detail'];
            $package->rating = $request['rating'];
+           $package->stock = $request['stock'];
+           $package->shipping_price = $request['shipping_price'];
            $package->save();
 
         }else{
