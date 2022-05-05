@@ -388,18 +388,58 @@
 <!-- สคริปก่อนหน้านี้ ลบ ไปแล้ว -->
 
 @if(isset($product))
-@foreach($product as $u)
-<div class="col-md-3 col-xs-6 set_new_mar">
-  <a href="{{url('product/'.$u->id)}}">
-      <div class="thumbnail text-center">
-        <img src="{{url('assets/image/product/'.$u->image_pro)}}" class="img-responsive"> 
-        <p class="pro_name">{{$u->name_pro}}</p>
-        <p class="pro_price">฿ {{number_format($u->price)}}</p>
-      </div>
-  </a>
-</div>
-@endforeach
-@endif
+    @foreach($product as $u)
+    <div class="col-md-3 col-xs-6 set_new_mar">
+        <div class="thumbnail a_sd_move">
+              <div style=" overflow: hidden; position: relative; min-height: 153px; max-height: 173px;">
+                  <a href="{{url('product/'.$u->id)}}">
+                      <img src="{{url('assets/image/product/'.$u->image_pro)}}">
+                  </a>
+                </div>
+                <div class="caption" style="padding: 3px;">
+                            <div class="descript bold" style="border-bottom: 1px dashed #dff0d8; height: 38px;overflow: hidden; ">
+                                <a href="{{url('product/'.$u->id)}}">{{$u->name_pro}}</a>
+                            </div>
+
+                            <div class="descript" style="height: 20px;">
+                              <span class="f_s_title_kim" style="color: #e03753; font-weight: 600;">฿ {{number_format($u->price)}} </span>
+                              <div class="descript-t">
+                              <div class="postMetaInline-authorLockup">
+                             
+
+                                <div class="rating">
+
+            <?php
+            for($i=1;$i <= $u->rating;$i++){
+            ?>
+
+                            <i class="icon-star voted"></i>
+            <?php
+            }
+            ?>
+
+            <?php
+            $total = 5;
+            $total -= $u->rating;
+
+            for($i=1;$i <= $total;$i++){
+            ?>
+
+                           <i class="icon-star-empty"></i>
+            <?php
+            }
+            ?>
+              </div>
+
+                              </div>
+                              </div>
+                            </div>
+
+                          </div>
+        </div>
+    </div>
+    @endforeach
+    @endif
 
 
 
