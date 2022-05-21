@@ -14,6 +14,16 @@ $('input').iCheck({
  <script src="{{url('assets/js/bootstrap-datepicker.js')}}"></script>
  <script src="{{url('assets/js/bootstrap-timepicker.js')}}"></script>
  <script src="{{url('assets/js/jquery.magnific-popup.js')}}"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N57BC02MJR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N57BC02MJR');
+</script>
+ 
  <script>
   $('input.date-pick').datepicker('setDate', 'today');
   $('input.time-pick').timepicker({
