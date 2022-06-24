@@ -16,7 +16,7 @@
     <meta property="og:url"           content="https://kozang.com" />
     <meta property="og:type"          content="website" />
     <meta property="og:title"         content="ค้นหาร้านวัสดุก่อสร้างทั่วไทย" />
-    <meta property="og:image"         content="{{ url('img/banner_FB.jpg') }}" />
+    <meta property="og:image"         content="{{ url('img/banner_FB.jpg') }}?v1" />
     <meta property="og:description"   content="ค้นหาร้านวัสดุก่อสร้างและบริการที่แนะนำสำหรับ โดย Kozang.com" />
     <meta property="og:image:width" content="600" />
     <meta property="og:image:height" content="314" />
