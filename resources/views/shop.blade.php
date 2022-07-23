@@ -640,10 +640,10 @@ span {
 
 <div class="col-sm-10 col-md-4 col-lg-4 white_bg" style="border: 1px solid #f4f4f4; font-size: 12px; padding: 1.5em 1.7em 1.8em 1.7em;">
 
-<div style="border-bottom: 1px dashed rgba(0,0,0,.09); padding-bottom:20px; padding-top:20px;">
- 
+<div style="border-bottom: 1px dashed rgba(0,0,0,.09); padding-bottom:20px; ">
+
           <a href="#" target="_blank" class="btn btn-success" style="width: 100%;">
-                                <i class="fa fa-commenting" ></i>	สั่งซื้อผ่าน Line
+                                <i class="fa fa-commenting" ></i>	สอบถาม LINE ID : Wiseboq
                               </a>
 
         </div>
@@ -652,7 +652,7 @@ span {
     			<i class="icon_set_1_icon-57"></i>
     			<h4>{{ trans('message.want') }} <span>{{ trans('message.help') }}</span></h4>
     			<a href="tel://004542344599" class="phone">086 551 7336</a>
-    			<small>{{ trans('message.con_t') }}</small>
+    			<small>ติดต่อสอบถามได้ทุกวัน</small>
     		</div>
 </div>
 
