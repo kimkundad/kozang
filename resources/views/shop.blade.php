@@ -80,6 +80,8 @@
     <div class="parallax-content-2">
         <div class="container">
             <div class="row">
+
+
                 <div class="col-md-8 col-sm-8" style="margin-top:20px;">
 
 
@@ -141,7 +143,9 @@
 
 
               <div class="row">
-                      <div class="col-md-10 col-md-offset-1" id="single_tour_desc">
+
+
+                      <div class="col-sm-10 col-md-8 col-lg-8 " id="single_tour_desc" style="padding-bottom:20px">
 
             
                       
@@ -590,6 +594,68 @@ figcaption {
 
 
                       </div><!--End  single_tour_desc-->
+
+
+
+<style>
+.info__header__real-price{
+      color: #d0011b;
+      font-size: 2.4rem;
+    font-weight: 700;
+
+    text-transform: capitalize;
+}
+.info__header__real-price span{
+      color: #999;
+      font-size: 2rem;
+    font-weight: 700;
+
+    text-transform: capitalize;
+}
+.info_header_badges{
+  float: right;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+}
+.badge-promotion{
+  background-color: rgba(255,212,36,.9);
+  width: 40px;
+    height: 45px;
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    padding: 4px 2px 3px;
+    color: #d0011b;
+}
+span {
+
+}
+</style>
+
+
+<div class="col-sm-10 col-md-4 col-lg-4 white_bg" style="border: 1px solid #f4f4f4; font-size: 12px; padding: 1.5em 1.7em 1.8em 1.7em;">
+
+<div style="border-bottom: 1px dashed rgba(0,0,0,.09); padding-bottom:20px; padding-top:20px;">
+ 
+          <a href="#" target="_blank" class="btn btn-success" style="width: 100%;">
+                                <i class="fa fa-commenting" ></i>	สั่งซื้อผ่าน Line
+                              </a>
+
+        </div>
+
+<div class="box_style_2">
+    			<i class="icon_set_1_icon-57"></i>
+    			<h4>{{ trans('message.want') }} <span>{{ trans('message.help') }}</span></h4>
+    			<a href="tel://004542344599" class="phone">086 551 7336</a>
+    			<small>{{ trans('message.con_t') }}</small>
+    		</div>
+</div>
+
                       <style type="text/css">
                       tr.other_tours1 td a {
                           color: #333;
