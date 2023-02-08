@@ -642,8 +642,8 @@ span {
 
 <div style="border-bottom: 1px dashed rgba(0,0,0,.09); padding-bottom:20px; ">
 
-          <a href="#" target="_blank" class="btn btn-success" style="width: 100%;">
-                                <i class="fa fa-commenting" ></i>	สอบถาม LINE ID : Wiseboq
+          <a href="https://page.line.me/780ehpdx?openQrModal=true" target="_blank" class="btn btn-success" style="width: 100%;">
+                                <i class="fa fa-commenting" ></i>	สอบถาม LINE ID : @Wiseboq
                               </a>
 
         </div>

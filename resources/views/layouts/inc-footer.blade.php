@@ -30,7 +30,7 @@ a#line_id:before {
                   <h3>Need help?</h3>
                   <a href="tel://086 551 7336" id="phone">086 551 7336</a>
                   <a href="#" id="email_footer">Contact@wiseboq.com</a>
-                  <a href="#" id="line_id">LINE ID : Wiseboq</a>
+                  <a href="https://page.line.me/780ehpdx?openQrModal=true" id="line_id">LINE ID : @wiseboq</a>
               </div>
               <div class="col-md-2 col-sm-3">
                   <h3>About</h3>
